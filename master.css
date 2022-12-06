@@ -1,0 +1,170 @@
+span{
+    color: white;
+}
+
+.p{
+    color: ;
+    color: white;
+    opacity: 0.9;
+}
+
+.o1{
+    color: white;
+}
+
+.container{
+    width: 1100px;
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 33% 67%;
+    grid-template-rows: 90% 10%;
+    background-image: url('bg-desktop.png');
+    height: 400px;
+    margin: 60px;
+}
+
+.b{
+    margin-left: 70px;
+}
+
+
+.icon{
+    background-color: hsl(229, 57%, 11%);
+    border-top-right-radius: 30%;
+    margin-top: 50px;
+    grid-column: 1/2;
+    width: 70%;
+    margin-left:90px;
+    height: 200px;
+    display: inline;
+}
+
+
+.ahh{
+    background-color: hsl(229, 57%, 11%);
+    width: 90%;
+    margin-top: 50px;
+    grid-column: 2/3;
+    display: inline;
+    z-index: 3;
+    perspective: 500px;
+    height: 120px;
+}
+
+.span{
+    background-color: white;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    display: inline-;
+    transform: translate(520px, -29px);
+    border-radius: 50%;
+}
+
+.mainline{
+    width: 90%;
+    margin: 20px;
+    background-color: black;
+    border-radius: 10%;
+    height: 15px;
+}
+
+.line{
+    width: 90%;
+    background-color: black;
+    height: 15px;
+    margin: ;
+    border-radius: 10%;
+    background-image: linear-gradient( 90deg ,hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+
+
+.logo{
+    width: 110px;
+    height: 70px;
+    transform: translatex(70px);
+    display: block;
+}
+
+.gb{
+    margin: 0px 490px 80px 10px;
+}
+
+
+
+.left{
+    background-color: white;
+    padding: 3px;
+    font-weight: bold;
+    text-align: ;
+    font-size: px;
+    border-radius: 9%;
+    width: 190px;
+    height: 60px;
+    transform: translate(210%, -230%);
+}
+
+.msg1{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.msg1 {
+  width: 100%;
+  font-size: 30px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+}
+
+
+.msg1 p{
+  width: 95%;
+  display: inline;
+  font-size: 30px;
+  transform: translate(10%, 25%);
+  height: 60px;
+}
+
+.msg1:after {
+  content: '';
+  position: absolute;
+  background-color: white;
+  top: 85%;
+  left: 95%;
+  z-index: -1;
+  width: 10px;
+  height: 52px;
+  transform: rotate(0deg);
+}
+
+.msg1:before{
+  content: '';
+  position: absolute;
+  background-color: white;
+  top: 80%;
+  z-index: 99;
+  left: 84%;
+  width: 10px;
+  height: 64px;
+  transform: rotate(-45deg);
+}
+
+.space{
+    margin-top: -60px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+
+sub{
+    display: inline;
+}
+
+.sup{
+    transform: translatey();
+}
