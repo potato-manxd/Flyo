@@ -1,170 +1,231 @@
-span{
+.text:select{
     color: white;
+    background-color: white;
 }
 
-.p{
-    color: ;
-    color: white;
-    opacity: 0.9;
+html{
+    width: 1440px;
 }
 
-.o1{
-    color: white;
+
+*{
+    font-size: 16px;
+}
+
+body{
+    width: 1440px;
+    background-color: #FAFFF4;
 }
 
 .container{
-    width: 1100px;
-    display: grid;
-    column-gap: 20px;
-    grid-template-columns: 33% 67%;
-    grid-template-rows: 90% 10%;
-    background-image: url('bg-desktop.png');
-    height: 400px;
-    margin: 60px;
+    height: 3000px;
 }
 
-.b{
-    margin-left: 70px;
+.purple{
+    width: 600px;
+    height: 100%;
+    transform: translatey(-1400px);
+    display: inline-block;
+    border-bottom-left-radius: 800px;
+    border-bottom-right-radius: 800px;
+    background-image: linear-gradient(180deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
 }
 
+.mobile{
+    width: 400px;
+    display: inline-block;
+    transform: translatey(-1550px);
+    height: 850px;
+    margin-top: 5px;
+    margin-left: -120px;
+    border-radius: 30px;
+    border: white solid 20px;
+    background-color: hsl(270, 20%, 96%);
+}
 
-.icon{
-    background-color: hsl(229, 57%, 11%);
-    border-top-right-radius: 30%;
-    margin-top: 50px;
-    grid-column: 1/2;
-    width: 70%;
-    margin-left:90px;
-    height: 200px;
+.header{
+    color: #FFFFFF;
+    width: 101%;
+    margin-top: 0px;
+    border-radius: 20px;
+    height: 90px;
+    background-image: linear-gradient(90deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));;
+    opacity: ;
+}
+
+.header button{
+    background-color: inherit;
+    font-size: 40px;
+    border: transparent;
+    color: white;
+}
+
+.header h2{
+    opacity: 0.7;
+}
+
+.header > img{
+    transform: translatey(15px);
+    width: 50px;
     display: inline;
-}
-
-
-.ahh{
-    background-color: hsl(229, 57%, 11%);
-    width: 90%;
-    margin-top: 50px;
-    grid-column: 2/3;
-    display: inline;
-    z-index: 3;
-    perspective: 500px;
-    height: 120px;
-}
-
-.span{
-    background-color: white;
-    width: 12px;
-    height: 12px;
-    position: absolute;
-    display: inline-;
-    transform: translate(520px, -29px);
+    height: 50px;
     border-radius: 50%;
 }
 
-.mainline{
-    width: 90%;
-    margin: 20px;
-    background-color: black;
-    border-radius: 10%;
-    height: 15px;
-}
-
-.line{
-    width: 90%;
-    background-color: black;
-    height: 15px;
-    margin: ;
-    border-radius: 10%;
-    background-image: linear-gradient( 90deg ,hsl(6, 100%, 80%), hsl(335, 100%, 65%));
-}
-
-
-.logo{
-    width: 110px;
-    height: 70px;
-    transform: translatex(70px);
-    display: block;
-}
-
-.gb{
-    margin: 0px 490px 80px 10px;
-}
-
-
-
-.left{
+.camera{
+    width: 170px;
+    height: 30px;
+    position: absolute;
     background-color: white;
-    padding: 3px;
-    font-weight: bold;
-    text-align: ;
-    font-size: px;
-    border-radius: 9%;
-    width: 190px;
-    height: 60px;
-    transform: translate(210%, -230%);
+    transform: translatey(-3px) translatex(70%);
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
 }
 
-.msg1{
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  position: relative;
-}
-
-.msg1 {
-  width: 100%;
-  font-size: 30px;
-  height: 60px;
-  border-radius: 20px;
-  background-color: white;
-  color: black;
-}
-
-
-.msg1 p{
-  width: 95%;
-  display: inline;
-  font-size: 30px;
-  transform: translate(10%, 25%);
-  height: 60px;
-}
-
-.msg1:after {
-  content: '';
-  position: absolute;
-  background-color: white;
-  top: 85%;
-  left: 95%;
-  z-index: -1;
-  width: 10px;
-  height: 52px;
-  transform: rotate(0deg);
-}
-
-.msg1:before{
-  content: '';
-  position: absolute;
-  background-color: white;
-  top: 80%;
-  z-index: 99;
-  left: 84%;
-  width: 10px;
-  height: 64px;
-  transform: rotate(-45deg);
-}
-
-.space{
-    margin-top: -60px;
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-
-
-sub{
+.ahh{
     display: inline;
 }
 
-.sup{
-    transform: translatey();
+.ahh *{
+    display: inline;
+}
+
+.ava{
+    margin-left: 100px;
+}
+
+.left-top > p{
+    width: 40%;
+    padding-right: 40px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0%;
+    color: hsl(276, 55%, 52%);
+    background-color: #E5E5E5;
+}
+
+.dog{
+    
+}
+
+.mobile img{
+    width: 60px;
+    border-radius: 10px;
+    margin-right: 10px;
+    height: 60px;
+}
+
+.right{
+    direction: rtl;
+}
+
+.right > p{
+    color: hsl(271, 15%, 43%);
+    width: 40%;
+    padding-left: 40px;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border-bottom-right-radius: 0%;
+    background-color: white;
+}
+
+.left-bottom > p{
+    width: 40%;
+    padding-right: 40px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0%;
+    color: hsl(276, 55%, 52%);
+    background-color: #E5E5E5;
+
+}
+
+label{
+    color: white;
+    opacity: 0.8;
+}
+
+label h2{
+    margin-left: 30px;
+    font-size: 25px;
+    opacity: 1;
+}
+
+.two{
+    margin-left: 65px;
+}
+
+.left-bottom form input{
+    width: 25px;
+    background-image: linear-gradient(0deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));;
+    height: 25px;
+}
+
+.left-bottom  h2{
+    display: inline;
+}
+
+.send{
+    width: 98%;
+    border-radius: 50px;
+    height: 60px;
+    background-color: white;
+    border: transparent;
+    outline: transparent;
+}
+
+.send form button{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    border: transparent;
+    margin-top: 10px;
+    outline: transparent;
+}
+
+.send form input{
+    width: 99%;
+    border-radius: 50px;
+    height: 60px;
+    border: transparent;
+    outline: transparent;
+}
+
+.send form{
+    width: 90%;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.first,
+.sec{
+    width: 63%;
+    height: 40px;
+    background-image: linear-gradient(90deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));;
+    padding: 10px;
+    margin: 20px;
+    color: ;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+}
+
+.text{
+    width: 400px;
+    transform: translate(1000px, -2000px);
+    display: inline-block;
+    font-size: 40px;
+    opacity: 0.9;
+
+}
+
+.text > h2{
+    color: hsl(271, 36%, 24%);
+    font-size: 3pc;
+    opacity: 1.0;
 }
